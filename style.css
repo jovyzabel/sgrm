@@ -1,0 +1,51 @@
+:root{
+    --primary: #003049;
+    --secondary: #d62828;
+    --success: #f77f00;
+    --light: #eae2b7;
+    }
+    *
+    {
+    font-family :'serif';
+    margin : 0;
+    padding: 0;
+    }
+    
+    h1
+    {
+    font-weight: bolder;
+    font-size: 1.4em;
+    text-align: center;
+    }
+    div
+    {
+    width: 50%;
+    border: solid .5px black;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    background-color : var(--light);
+    }
+    form
+    {
+    font-size: 1.1em;
+    }
+    input{
+    height: 20px;
+    width: 200px;
+    }
+    button{
+    margin-left: 200px;
+    text-align: center;
+    color: var(--light);
+    height: 50px;
+    width: 250px;
+    background-color: var(--primary);
+    }
+    
+    @media screen and (max-width: 480px){
+        button{
+        margin-left: 120px;
+        }
+
+    }
